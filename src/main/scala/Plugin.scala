@@ -1,5 +1,5 @@
+import io.github.gitbucket.helloworld.controller.HelloWorldController
 import io.github.gitbucket.solidbase.model.Version
-import io.github.gitbucket.sample.controller.HelloWorldController
 
 class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginId: String = "helloworld"

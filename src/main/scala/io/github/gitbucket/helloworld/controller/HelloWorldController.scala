@@ -1,4 +1,4 @@
-package io.github.gitbucket.sample.controller
+package io.github.gitbucket.helloworld.controller
 
 import gitbucket.core.controller.ControllerBase
 
