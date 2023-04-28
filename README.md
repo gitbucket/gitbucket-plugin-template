@@ -1,4 +1,4 @@
-gitbucket-plugin-template [![Build Status](https://travis-ci.org/gitbucket/gitbucket-plugin-template.svg?branch=master)](https://travis-ci.org/gitbucket/gitbucket-plugin-template)
+gitbucket-plugin-template
 ========
 Template project for GitBucket plugin
 
