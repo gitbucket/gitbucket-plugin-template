@@ -1,3 +1,4 @@
+import gitbucket.core.controller.ControllerBase
 import io.github.gitbucket.helloworld.controller.HelloWorldController
 import io.github.gitbucket.solidbase.model.Version
 
@@ -7,7 +8,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val description: String = "First example of GitBucket plug-in"
   override val versions: List[Version] = List(new Version("1.0.0"))
 
-  override val controllers = Seq(
+  override val controllers: Seq[(String, ControllerBase)] = Seq(
     "/*" -> new HelloWorldController()
   )
 }
