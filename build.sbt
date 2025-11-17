@@ -1,7 +1,7 @@
 name := "gitbucket-helloworld-plugin"
 organization := "io.github.gitbucket"
 version := "1.0.0"
-scalaVersion := "2.13.17"
+scalaVersion := "2.13.18"
 gitbucketVersion := "4.44.0"
 scalacOptions ++= Seq(
   "-deprecation",
