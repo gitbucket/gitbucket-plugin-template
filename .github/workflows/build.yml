@@ -26,6 +26,7 @@ jobs:
       with:
         distribution: temurin
         java-version: 17
-    - uses: sbt/setup-sbt@v1
+    - name: Make sbt wrapper executable
+      run: chmod +x ./sbt        
     - name: Run tests
-      run: sbt test
+      run: ./sbt test
